@@ -1,0 +1,20 @@
+python pesduo:
+
+if event == this:
+	setKeyTOThis
+	SendTo(SetKeyTOThis)
+	setValueToThis
+	SendTo(setValueToThis)
+
+Arduino Pesduo:
+ReadKey();
+
+if(ReadKey() == "Certian String")
+{
+	//go in here read another incoming value and apply this value to motors
+}
+
+if(ReadKey() == "SYN_REPORT")
+{
+	storeKeyHere
+}
